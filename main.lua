@@ -2,9 +2,9 @@
     Heven Menu
 ]]
 
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/tep432/test-menu-Roblox/main/Heven.lua"))()
+local Heven = loadstring(game:HttpGet("https://raw.githubusercontent.com/tep432/test-menu-Roblox/main/Heven.lua"))()
 
-local Window = Fluent:CreateWindow({
+local Window = Heven:CreateWindow({
     Title = "Heven Menu",
     SubTitle = "",
     TabWidth = 160,
@@ -20,7 +20,7 @@ local Tabs = {
 
 Window:SelectTab(1)
 
-Fluent:Notify({
+Heven:Notify({
     Title = "Heven Menu",
     Content = "Loaded!",
     Duration = 3
