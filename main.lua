@@ -1,20 +1,17 @@
 --[[
-    Heaven Menu - Fluent UI
-    by tep432
+    Heaven Menu
 ]]
 
-local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/tep432/test-menu-Roblox/main/Heven.lua"))()
 
 local Window = Fluent:CreateWindow({
     Title = "Heaven Menu",
-    SubTitle = "by tep432",
+    SubTitle = "",
     TabWidth = 160,
     Size = UDim2.fromOffset(500, 400),
     Acrylic = false,
     Theme = "Darker",
-    MinimizeKey = Enum.KeyCode.RightShift,
-    DisableMaximize = true,
-    DisableResize = true
+    MinimizeKey = Enum.KeyCode.RightShift
 })
 
 local Tabs = {
